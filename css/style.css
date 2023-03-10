@@ -604,6 +604,7 @@ body.lock {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-fill-color: transparent;
 }
 
 .tips__one span,
@@ -1883,7 +1884,7 @@ body.lock {
 @media (max-width: 860px) {
   .advice__text {
     margin: 0 auto 30px;
-    font-size: 20px;
+    font-style: 20px;
   }
 }
 .advice__text--small {
@@ -2335,9 +2336,10 @@ body.lock {
 .popup__5__close,
 .popup__news__close {
   position: absolute;
-  right: 20px;
-  top: 20px;
-  font-size: 24px;
+  right: 10px;
+  top: 10px;
+  font-size: 34px;
+  transform: rotate(45deg);
   color: var(--white);
   z-index: 101;
   text-decoration: none;
@@ -2367,7 +2369,6 @@ body.lock {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    border-radius: 0;
   }
 }
 .popup__form h2,
@@ -2404,6 +2405,15 @@ body.lock {
   font-size: 16px;
   line-height: 1.12;
   margin-bottom: 30px;
+  text-align: center;
+}
+.popup__form-news p,
+.popup__1__form-news p,
+.popup__2__form-news p,
+.popup__3__form-news p,
+.popup__4__form-news p,
+.popup__5__form-news p,
+.popup__news__form-news p {
   text-align: left;
 }
 .popup__input,
