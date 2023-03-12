@@ -475,6 +475,7 @@ body.lock {
 }
 .service__column {
   position: relative;
+  color: var(--white);
 }
 .service__column::before {
   content: "";
